@@ -25,6 +25,12 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          log("edit press");
+        },
+        child: const Icon(Icons.edit),
+      ),
     );
   }
 }
